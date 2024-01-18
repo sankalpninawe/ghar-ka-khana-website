@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Contests</title>
+    <style>
+        body{
+            background-image: url(assets/contest_img.webp);
+        }
+
+        .sec1{
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            margin-top: 140px;
+            width: 1000px;
+            margin-left: 260px;
+        }
+
+        .content{
+            margin: auto;
+            width:fit-content;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #Newsletter{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0px;
+        }
+
+        .ns_content{
+            background-color: #676767;
+            width: max-content;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ns_form{
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50vw;
+            max-width: 60rem;
+        }
+
+        .name, .email, .msg {
+            font-size: medium;
+            width: 100%;
+            max-width: 40rem;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            color: white;
+            border: 0.1px white;
+            border-radius: 0.5rem;
+            background: rgb(40, 40, 40);
+        }
+
+        .submitBtn {
+            background: white;
+            border: none;
+            border-radius: 0.5rem;
+            margin: 1.5rem;
+            padding: 0.5rem 1.75rem;
+            font-size: medium;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="sec1">
+        <div class="content" >
+            <br>
+            <p style="font-size: 35px; color: darkblue; text-align: center;"> <b>Recipe Contests: Enter For a Chance to Win!</b></p>
+            <p style="font-size: 20px; text-align: center;">Enter a "Ghar Ka Khana" recipe contest for a chance to be published in our magazines and win big prizes! Curious who won a recent contest? You can see the winning recipes here, too.</p>
+        
+            <section id="Newsletter">
+                <h2 class='ns_heading'>Subscribe to our Newsletter here!</h2>
+                <div class="ns_content">
+                    <form class='ns_form'>
+                        <input type='text' class='name' placeholder='Your Name'/>
+                        <input type='email' class='email' placeholder='Your Email'/>
+                        <button type='submit' value='Send' class='submitBtn'>Submit</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+</html>
